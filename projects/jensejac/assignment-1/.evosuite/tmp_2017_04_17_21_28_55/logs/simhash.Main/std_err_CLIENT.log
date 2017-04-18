@@ -1,0 +1,92 @@
+[MASTER] 21:29:00.103 [pool-2-thread-1] ERROR ResourceList - Could not find /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/target/classes/simhash/old/BinaryWordSeg.class
+[MASTER] 21:29:00.104 [pool-2-thread-1] ERROR ResourceList - Error while trying to open stream on: /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/target/classes/simhash/old/BinaryWordSeg.class
+[MASTER] 21:29:00.107 [pool-2-thread-1] ERROR InheritanceTreeGenerator - 
+java.io.IOException: Class not found
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.a(Unknown Source) ~[evosuite-standalone-runtime-1.0.3.jar:1.0.3]
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.<init>(Unknown Source) ~[evosuite-standalone-runtime-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.InheritanceTreeGenerator.analyzeClassStream(InheritanceTreeGenerator.java:240) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.InheritanceTreeGenerator.createFromClassPath(InheritanceTreeGenerator.java:101) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.DependencyAnalysis.initInheritanceTree(DependencyAnalysis.java:77) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:130) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:110) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.3.jar:1.0.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+[MASTER] 21:29:00.108 [pool-2-thread-1] ERROR ResourceList - Could not find /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/target/classes/simhash/old/Simhash.class
+[MASTER] 21:29:00.108 [pool-2-thread-1] ERROR ResourceList - Error while trying to open stream on: /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/target/classes/simhash/old/Simhash.class
+[MASTER] 21:29:00.109 [pool-2-thread-1] ERROR InheritanceTreeGenerator - 
+java.io.IOException: Class not found
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.a(Unknown Source) ~[evosuite-standalone-runtime-1.0.3.jar:1.0.3]
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.<init>(Unknown Source) ~[evosuite-standalone-runtime-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.InheritanceTreeGenerator.analyzeClassStream(InheritanceTreeGenerator.java:240) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.InheritanceTreeGenerator.createFromClassPath(InheritanceTreeGenerator.java:101) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.DependencyAnalysis.initInheritanceTree(DependencyAnalysis.java:77) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:130) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:110) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.3.jar:1.0.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+[MASTER] 21:29:00.109 [pool-2-thread-1] ERROR ResourceList - Could not find /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/target/classes/simhash/old/IWordSeg.class
+[MASTER] 21:29:00.109 [pool-2-thread-1] ERROR ResourceList - Error while trying to open stream on: /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/target/classes/simhash/old/IWordSeg.class
+[MASTER] 21:29:00.110 [pool-2-thread-1] ERROR InheritanceTreeGenerator - 
+java.io.IOException: Class not found
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.a(Unknown Source) ~[evosuite-standalone-runtime-1.0.3.jar:1.0.3]
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.<init>(Unknown Source) ~[evosuite-standalone-runtime-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.InheritanceTreeGenerator.analyzeClassStream(InheritanceTreeGenerator.java:240) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.InheritanceTreeGenerator.createFromClassPath(InheritanceTreeGenerator.java:101) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.DependencyAnalysis.initInheritanceTree(DependencyAnalysis.java:77) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:130) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:110) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.3.jar:1.0.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+[MASTER] 21:29:00.110 [pool-2-thread-1] ERROR ResourceList - Could not find /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/target/classes/simhash/old/MurmurHash.class
+[MASTER] 21:29:00.110 [pool-2-thread-1] ERROR ResourceList - Error while trying to open stream on: /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/target/classes/simhash/old/MurmurHash.class
+[MASTER] 21:29:00.111 [pool-2-thread-1] ERROR InheritanceTreeGenerator - 
+java.io.IOException: Class not found
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.a(Unknown Source) ~[evosuite-standalone-runtime-1.0.3.jar:1.0.3]
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.<init>(Unknown Source) ~[evosuite-standalone-runtime-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.InheritanceTreeGenerator.analyzeClassStream(InheritanceTreeGenerator.java:240) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.InheritanceTreeGenerator.createFromClassPath(InheritanceTreeGenerator.java:101) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.DependencyAnalysis.initInheritanceTree(DependencyAnalysis.java:77) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:130) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:110) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.3.jar:1.0.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+[MASTER] 21:29:00.111 [pool-2-thread-1] ERROR ResourceList - Could not find /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/target/classes/simhash/old/Main.class
+[MASTER] 21:29:00.111 [pool-2-thread-1] ERROR ResourceList - Error while trying to open stream on: /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/target/classes/simhash/old/Main.class
+[MASTER] 21:29:00.112 [pool-2-thread-1] ERROR InheritanceTreeGenerator - 
+java.io.IOException: Class not found
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.a(Unknown Source) ~[evosuite-standalone-runtime-1.0.3.jar:1.0.3]
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.<init>(Unknown Source) ~[evosuite-standalone-runtime-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.InheritanceTreeGenerator.analyzeClassStream(InheritanceTreeGenerator.java:240) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.InheritanceTreeGenerator.createFromClassPath(InheritanceTreeGenerator.java:101) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.DependencyAnalysis.initInheritanceTree(DependencyAnalysis.java:77) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:130) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:110) [evosuite-master-1.0.3.jar:1.0.3]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.3.jar:1.0.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+[MASTER] 21:30:38.964 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.collect.ImmutableCollection: com/google/common/collect/ImmutableCollection$EmptyImmutableCollection
+[MASTER] 21:30:38.982 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.collect.ImmutableEnumSet: com/google/common/collect/ImmutableCollection$EmptyImmutableCollection
+[MASTER] 21:30:38.992 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.collect.ImmutableSet: com/google/common/collect/ImmutableCollection$EmptyImmutableCollection
+[MASTER] 21:30:38.995 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.collect.ImmutableMap: com/google/common/collect/ImmutableMap$KeySet
+[MASTER] 21:30:39.004 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.collect.Lists$StringAsImmutableList: com/google/common/collect/ImmutableCollection$EmptyImmutableCollection
+[MASTER] 21:30:39.025 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.collect.ImmutableList: com/google/common/collect/ImmutableCollection$EmptyImmutableCollection
+[MASTER] 21:30:39.038 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.Equivalence: com/google/common/base/PairwiseEquivalence

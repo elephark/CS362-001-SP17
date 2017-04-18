@@ -1,0 +1,77 @@
+* Starting client
+* Connecting to master process on port 6318
+* Analyzing classpath: 
+  - /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/target/test-classes
+  - /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/target/classes
+  - /home/rewt/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/rewt/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+  - /home/rewt/.m2/repository/com/google/guava/guava/12.0.1/guava-12.0.1.jar
+  - /home/rewt/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+* Finished analyzing classpath
+* Generating tests for class simhash.MurmurHash
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 21:30:43.837 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/.evosuite/evosuite-seeds/simhash.MurmurHash.seed
+* Total number of test goals: 
+  - Line 72
+  - Branch 33
+  - Exception 0
+  - MutationFactory 731
+  - Output 12
+  - Method 5
+  - MethodNoException 5
+  - CBranchFitnessFactory 33
+* Using seed 1492489841658
+* Starting evolution
+* Search finished after 73s and 702 generations, 107314 statements, best individual has fitness: 9.166666666666668
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 72
+* Number of covered goals: 72
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 33
+* Number of covered goals: 31
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 99%
+* Total number of goals: 731
+* Number of covered goals: 721
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100%
+* Total number of goals: 12
+* Number of covered goals: 12
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 94%
+* Total number of goals: 33
+* Number of covered goals: 31
+* Generated 28 tests with total length 28
+* Resulting test suite's coverage: 98% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 25%
+* Compiling and checking tests
+* Writing JUnit test case 'MurmurHash_ESTest' to /home/rewt/Documents/CS362-001-SP17/projects/jensejac/assignment-1/.evosuite/tmp_2017_04_17_21_28_55/tests
+* Done!
+

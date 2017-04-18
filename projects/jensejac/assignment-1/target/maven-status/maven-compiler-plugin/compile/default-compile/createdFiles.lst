@@ -1,0 +1,5 @@
+simhash/BinaryWordSeg.class
+simhash/IWordSeg.class
+simhash/Simhash.class
+simhash/MurmurHash.class
+simhash/Main.class
